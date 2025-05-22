@@ -3,17 +3,18 @@ theme = "catppuccin_mocha_transparent"
 [editor]
 auto-format = false
 bufferline = "always"
+color-modes = true
 cursorcolumn = true
 cursorline = true
 end-of-line-diagnostics = "hint"
 line-number = "relative"
+mouse = false
 rulers = [150]
 true-color = true
 
 [editor.auto-save]
 focus-lost = true
 after-delay.enable = true
-after-delay.timeout = 2500
 
 [editor.cursor-shape]
 insert = "bar"
@@ -32,9 +33,6 @@ other-lines = "error"
 
 [editor.lsp]
 display-inlay-hints = true
-
-[editor.smart-tab]
-enable = false
 
 [editor.statusline]
 left = ["mode", "spinner", "diagnostics"]
